@@ -6,8 +6,7 @@ import java.util.LinkedList;
 public class LRULinkedList {
 
     public static void LRU(LinkedList<Integer> list, int maxSize, int a){
-        if(list.contains(a)){
-            list.remove((Integer) a);
+        if(list.remove((Integer) a)){
             list.add(0,a);
             return;
         }
