@@ -1,6 +1,4 @@
-package com.lyflying.algopractice;
-
-import java.util.LinkedList;
+package com.lyflying.algopractice.algo07linkedlist;
 
 public class SingleLinkedNode<E> {
 
