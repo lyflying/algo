@@ -1,8 +1,6 @@
 package com.lyflying.algopractice.algo08stack;
 
-import com.lyflying.algopractice.algo05array.Array;
-
-public class ArrayStack {
+public class ArrayStack implements BaseStack {
 
     private String[] data;
     private int count;
@@ -42,6 +40,13 @@ public class ArrayStack {
             System.out.print(data[i]+" ");
         }
         System.out.println("\r");
+    }
+
+    public String peek(){
+        if(count == 0){
+            return null;
+        }
+        return data[count-1];
     }
 
     public static void main(String[] args) {

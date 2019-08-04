@@ -2,7 +2,29 @@ package com.lyflying.algopractice.algo08stack;
 
 import com.lyflying.algopractice.algo07linkedlist.SingleLinkedNode;
 
-public class LinkedStack {
-    SingleLinkedNode<String> list;
+public class LinkedStack implements BaseStack {
 
+    private SingleLinkedNode<String> list;
+    private int count;
+
+    public LinkedStack() {
+        this.list = new SingleLinkedNode<String>();
+        this.count = 0;
+    }
+
+    @Override
+    public String pop() {
+        return null;
+    }
+
+    @Override
+    public void push(String item) {
+        list.add(item);
+        count++;
+    }
+
+    @Override
+    public String peek() {
+        return list.getLast();
+    }
 }
