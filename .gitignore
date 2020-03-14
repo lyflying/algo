@@ -4,3 +4,34 @@
 out
 *.class
 *.xml___jb_tmp___
+
+# folds
+=target
+targe/
+log
+logs
+.settings
+
+# files
+*.log
+*.ipr
+*.iws
+*.class
+.DS_Store
+.classpath
+.project
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+
+# others
+hs_err_pid*
+*.cache
+*.cache.lock
+rebel*.xml
+*.rebel*
+conf/uqun-group-pet/config-cache/uqun-group-pet+default+application.properties
+*.lst
+*.kotlin_module

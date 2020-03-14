@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c35ddc7-b1aa-4de4-9ac5-fd7b587d12ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/algo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/designparrern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/ApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/BeanDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/BeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/BeanconfigParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/XmlBeanConfigParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/singleton/IdGeneratorDoubleCheckLazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/singleton/IdGeneratorEnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/singleton/IdGeneratorInnerStaticClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/singleton/IdGeneratorLazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/singleton/IdGeneratorThreadUniqueSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/singleton/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo05array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo05array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo05array/LRUArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo05array/LRUArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo06linkedlist/HuiWenCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo06linkedlist/HuiWenCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo06linkedlist/LRULinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo06linkedlist/LRULinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo07linkedlist/SingleLinkedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo07linkedlist/SingleLinkedNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo08stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo08stack/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo08stack/BaseStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo08stack/BaseStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo08stack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo08stack/LinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo08stack/SimpleCompute.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo08stack/SimpleCompute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo09queue/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo09queue/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo10recursion/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo10recursion/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo11sort/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo11sort/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo12quiksort/FindTopK.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo12quiksort/FindTopK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo12quiksort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo12quiksort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo12quiksort/QuikSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo12quiksort/QuikSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/algopractice/algo12quiksort/QuikSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/algopractice/algo12quiksort/QuikSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/leetcode/Code0001TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/leetcode/Code0001TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/algo/leetcode/Code0002AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/algo/src/main/java/com/lyflying/algo/leetcode/Code0002AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lyflying/designpattern/IdGeneratorHungrySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/singleton/IdGeneratorHungrySingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +61,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -111,6 +70,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lyflying" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/designparrern/src/main/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lyflying.designpattern.singleton" />
     </key>
@@ -118,23 +80,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Demo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyflying.leetcode.A" />
-      <module name="javapractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyflying.algo.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="Code0002AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyflying.algo.leetcode.Code0002AddTwoNumbers" />
@@ -150,13 +98,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTopK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyflying.algo.algopractice.algo12quiksort.FindTopK" />
-      <module name="javapractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.lyflying.designpattern.factory.di.Demo" />
+      <module name="designparrern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyflying.algo.algopractice.algo12quiksort.*" />
+          <option name="PATTERN" value="com.lyflying.designpattern.factory.di.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,6 +116,20 @@
     <configuration name="IdGeneratorHungrySingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lyflying.designpattern.singleton.IdGeneratorHungrySingleton" />
       <module name="javapractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyflying.designpattern.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyflying.designpattern.singleton.Main" />
+      <module name="designparrern" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -249,19 +212,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FindTopK" />
       <item itemvalue="Application.Code0002AddTwoNumbers" />
-      <item itemvalue="Application.A" />
       <item itemvalue="Application.IdGeneratorHungrySingleton" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.IdGeneratorHungrySingleton" />
         <item itemvalue="Application.Code0002AddTwoNumbers" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="Application.FindTopK" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +262,7 @@
       <workItem from="1566266399896" duration="5407000" />
       <workItem from="1566472803642" duration="3103000" />
       <workItem from="1566885248737" duration="1101000" />
-      <workItem from="1584163415967" duration="9291000" />
+      <workItem from="1584163415967" duration="10552000" />
     </task>
     <servers />
   </component>
@@ -311,10 +274,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1584195869020" />
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1584196530187">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584198259706">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584196530187" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1584198259706" />
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1584197993356">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584197993356" />
     <state x="340" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584194358932">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -323,42 +290,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="486" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1584194287259" />
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1584194267948">
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1584198616561">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584194267948" />
-    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1584194267947">
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584198616561" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1584198616559">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584194267947" />
-    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1584194267946">
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584198616559" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1584198616559">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584194267946" />
-    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1584194267948">
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584198616559" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1584198616560">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="220" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584194267948" />
-    <state width="1398" height="226" key="GridCell.Tab.1.bottom" timestamp="1584171715934">
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584198616560" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom" timestamp="1584198616563">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584171715934" />
-    <state width="1398" height="226" key="GridCell.Tab.1.center" timestamp="1584171715932">
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584198616563" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center" timestamp="1584198616562">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584171715932" />
-    <state width="1398" height="226" key="GridCell.Tab.1.left" timestamp="1584171715932">
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584198616562" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left" timestamp="1584198616561">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584171715932" />
-    <state width="1398" height="226" key="GridCell.Tab.1.right" timestamp="1584171715933">
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584198616561" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right" timestamp="1584198616562">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584171715933" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1584194242868">
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584198616562" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1584197821253">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584194242868" />
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1584197821253" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1584198389187">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584198389187" />
     <state x="141" y="290" key="new project wizard" timestamp="1584194334950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -367,5 +338,41 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584169620254" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/Demo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/ClassPathXmlApplicationContext.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/XmlBeanConfigParser.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/BeanFactory.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/BeanFactory.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/BeanFactory.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

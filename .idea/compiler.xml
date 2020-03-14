@@ -11,8 +11,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="algo" target="1.5" />
-      <module name="designparrern" target="1.5" />
+      <module name="algo" target="8" />
+      <module name="designparrern" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
