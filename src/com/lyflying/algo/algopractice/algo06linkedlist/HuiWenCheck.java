@@ -1,4 +1,4 @@
-package com.lyflying.algopractice.algo06linkedlist;
+package com.lyflying.algo.algopractice.algo06linkedlist;
 
 import java.util.LinkedList;
 

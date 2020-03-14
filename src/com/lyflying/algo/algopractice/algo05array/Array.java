@@ -1,6 +1,4 @@
-package com.lyflying.algopractice.algo05array;
-
-import javax.sound.midi.Soundbank;
+package com.lyflying.algo.algopractice.algo05array;
 
 /**
  * 实现数据插入、删除和按照下标随机访问

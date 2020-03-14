@@ -1,4 +1,4 @@
-package com.lyflying.algopractice.algo08stack;
+package com.lyflying.algo.algopractice.algo08stack;
 
 public interface BaseStack {
     public String pop();

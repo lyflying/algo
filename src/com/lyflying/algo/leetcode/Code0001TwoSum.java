@@ -1,4 +1,4 @@
-package com.lyflying.leetcode;
+package com.lyflying.algo.leetcode;
 
 import java.util.HashMap;
 

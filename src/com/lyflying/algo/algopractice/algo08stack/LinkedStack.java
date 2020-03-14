@@ -1,6 +1,6 @@
-package com.lyflying.algopractice.algo08stack;
+package com.lyflying.algo.algopractice.algo08stack;
 
-import com.lyflying.algopractice.algo07linkedlist.SingleLinkedNode;
+import com.lyflying.algo.algopractice.algo07linkedlist.SingleLinkedNode;
 
 public class LinkedStack implements BaseStack {
 

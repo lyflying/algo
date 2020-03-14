@@ -1,4 +1,4 @@
-package com.lyflying.algopractice.algo07linkedlist;
+package com.lyflying.algo.algopractice.algo07linkedlist;
 
 public class SingleLinkedNode<E> {
 

@@ -1,4 +1,4 @@
-package com.lyflying.algopractice.algo12quiksort;
+package com.lyflying.algo.algopractice.algo12quiksort;
 
 public class QuikSortTest {
 

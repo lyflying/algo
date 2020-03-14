@@ -1,4 +1,4 @@
-package com.lyflying.algopractice.algo05array;
+package com.lyflying.algo.algopractice.algo05array;
 
 public class LRUArray {
 

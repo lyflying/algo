@@ -1,4 +1,4 @@
-package com.lyflying.algopractice.algo08stack;
+package com.lyflying.algo.algopractice.algo08stack;
 
 import java.util.HashMap;
 import java.util.Map;

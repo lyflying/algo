@@ -1,4 +1,4 @@
-package com.lyflying.algopractice.algo10recursion;
+package com.lyflying.algo.algopractice.algo11sort;
 
 /**
  * Created by LY on 2019/8/5.
