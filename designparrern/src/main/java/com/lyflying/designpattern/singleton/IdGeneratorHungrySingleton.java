@@ -1,4 +1,4 @@
-package com.lyflying.designpattern;
+package com.lyflying.designpattern.singleton;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -11,6 +11,9 @@ public class IdGeneratorHungrySingleton {
 
     private static final IdGeneratorHungrySingleton instance = new IdGeneratorHungrySingleton();
 
+    /**
+     * 防止在外部构造对象
+     */
     private IdGeneratorHungrySingleton(){};
 
     public static IdGeneratorHungrySingleton getInstance(){
