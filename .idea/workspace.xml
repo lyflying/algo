@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c35ddc7-b1aa-4de4-9ac5-fd7b587d12ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/com/lyflying/thread/transfer/AccountDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/com/lyflying/thread/transfer/AccountDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/com/lyflying/thread/transfer/AccountDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/com/lyflying/thread/transfer/AccountDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/XmlBeanConfigParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/XmlBeanConfigParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,25 +37,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1Z6dKfdx80lM4jvWz6aVQ7aeSNk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,34 +63,81 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lyflying.designpattern.factory.di" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/designparrern/src/main/resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lyflying" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/designparrern/src/main/resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lyflying.designpattern.singleton" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lyflying.thread.transfer" />
+      <recent name="com.lyflying.designpattern.singleton" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lyflying.designpattern.factory.di" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.AccountDemo4">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Code0002AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyflying.algo.leetcode.Code0002AddTwoNumbers" />
-      <module name="javapractice" />
+    <configuration name="AccountDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.lyflying.thread.transfer.AccountDemo1" />
+      <module name="thread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyflying.thread.transfer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyflying.thread.transfer.AccountDemo2" />
+      <module name="thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lyflying.algo.leetcode.*" />
+          <option name="PATTERN" value="com.lyflying.thread.transfer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyflying.thread.transfer.AccountDemo3" />
+      <module name="thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyflying.thread.transfer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lyflying.thread.transfer.AccountDemo4" />
+      <module name="thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyflying.thread.transfer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,48 +153,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lyflying.designpattern.factory.di.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IdGeneratorHungrySingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyflying.designpattern.singleton.IdGeneratorHungrySingleton" />
-      <module name="javapractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyflying.designpattern.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyflying.designpattern.singleton.Main" />
-      <module name="designparrern" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyflying.designpattern.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyflying.designpattern.singleton.Main" />
-      <module name="javapractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyflying.designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,33 +217,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Code0002AddTwoNumbers" />
-      <item itemvalue="Application.IdGeneratorHungrySingleton" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Demo" />
-      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.AccountDemo1" />
+      <item itemvalue="Application.AccountDemo2" />
+      <item itemvalue="Application.AccountDemo3" />
+      <item itemvalue="Application.AccountDemo4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccountDemo4" />
+        <item itemvalue="Application.AccountDemo1" />
+        <item itemvalue="Application.AccountDemo3" />
+        <item itemvalue="Application.AccountDemo2" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.IdGeneratorHungrySingleton" />
-        <item itemvalue="Application.Code0002AddTwoNumbers" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -262,82 +255,94 @@
       <workItem from="1566266399896" duration="5407000" />
       <workItem from="1566472803642" duration="3103000" />
       <workItem from="1566885248737" duration="1101000" />
-      <workItem from="1584163415967" duration="10552000" />
+      <workItem from="1584163415967" duration="11748000" />
+      <workItem from="1584446026055" duration="500000" />
+      <workItem from="1584500137200" duration="590000" />
+      <workItem from="1603259847668" duration="9035000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Project_Structure" timestamp="1584195869020">
+    <state x="208" y="31" key="#Project_Structure" timestamp="1603262277416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1584195869020" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584198259706">
+    <state x="208" y="31" key="#Project_Structure/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603262277416" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603262376522">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1584198259706" />
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1584197993356">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603262376522" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1603269683590">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584197993356" />
-    <state x="340" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584194358932">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603269683590" />
+    <state width="456" height="466" key="DebuggerActiveHint" timestamp="1603264503801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="340" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1584194358932" />
-    <state x="486" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584194287260">
+    <state width="456" height="466" key="DebuggerActiveHint/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603264503801" />
+    <state width="982" height="79" key="GridCell.Tab.0.bottom" timestamp="1603365825735">
+      <screen x="243" y="-768" width="1024" height="768" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262830270" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603268099458" />
+    <state width="982" height="79" key="GridCell.Tab.0.bottom/0.0.1440.900/243.-768.1024.768@243.-768.1024.768" timestamp="1603365825735" />
+    <state width="982" height="220" key="GridCell.Tab.0.bottom/26.23.1414.877/243.-745.1024.745@243.-745.1024.745" timestamp="1603364204170" />
+    <state width="982" height="79" key="GridCell.Tab.0.center" timestamp="1603365825733">
+      <screen x="243" y="-768" width="1024" height="768" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.center/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262830266" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603268099455" />
+    <state width="982" height="79" key="GridCell.Tab.0.center/0.0.1440.900/243.-768.1024.768@243.-768.1024.768" timestamp="1603365825733" />
+    <state width="982" height="220" key="GridCell.Tab.0.center/26.23.1414.877/243.-745.1024.745@243.-745.1024.745" timestamp="1603364204166" />
+    <state width="982" height="79" key="GridCell.Tab.0.left" timestamp="1603365825732">
+      <screen x="243" y="-768" width="1024" height="768" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.left/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262830265" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603268099453" />
+    <state width="982" height="79" key="GridCell.Tab.0.left/0.0.1440.900/243.-768.1024.768@243.-768.1024.768" timestamp="1603365825732" />
+    <state width="982" height="220" key="GridCell.Tab.0.left/26.23.1414.877/243.-745.1024.745@243.-745.1024.745" timestamp="1603364204164" />
+    <state width="982" height="79" key="GridCell.Tab.0.right" timestamp="1603365825734">
+      <screen x="243" y="-768" width="1024" height="768" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.right/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262830268" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603268099456" />
+    <state width="982" height="79" key="GridCell.Tab.0.right/0.0.1440.900/243.-768.1024.768@243.-768.1024.768" timestamp="1603365825734" />
+    <state width="982" height="220" key="GridCell.Tab.0.right/26.23.1414.877/243.-745.1024.745@243.-745.1024.745" timestamp="1603364204167" />
+    <state width="982" height="190" key="GridCell.Tab.1.bottom" timestamp="1603365397232">
+      <screen x="243" y="-768" width="1024" height="768" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262722367" />
+    <state width="1398" height="290" key="GridCell.Tab.1.bottom/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603267990022" />
+    <state width="982" height="190" key="GridCell.Tab.1.bottom/0.0.1440.900/243.-768.1024.768@243.-768.1024.768" timestamp="1603365397232" />
+    <state width="982" height="190" key="GridCell.Tab.1.center" timestamp="1603365397228">
+      <screen x="243" y="-768" width="1024" height="768" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.1.center/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262722364" />
+    <state width="1398" height="290" key="GridCell.Tab.1.center/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603267990020" />
+    <state width="982" height="190" key="GridCell.Tab.1.center/0.0.1440.900/243.-768.1024.768@243.-768.1024.768" timestamp="1603365397228" />
+    <state width="982" height="190" key="GridCell.Tab.1.left" timestamp="1603365397223">
+      <screen x="243" y="-768" width="1024" height="768" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.1.left/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262722363" />
+    <state width="1398" height="290" key="GridCell.Tab.1.left/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603267990019" />
+    <state width="982" height="190" key="GridCell.Tab.1.left/0.0.1440.900/243.-768.1024.768@243.-768.1024.768" timestamp="1603365397223" />
+    <state width="982" height="190" key="GridCell.Tab.1.right" timestamp="1603365397230">
+      <screen x="243" y="-768" width="1024" height="768" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.1.right/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262722366" />
+    <state width="1398" height="290" key="GridCell.Tab.1.right/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603267990021" />
+    <state width="982" height="190" key="GridCell.Tab.1.right/0.0.1440.900/243.-768.1024.768@243.-768.1024.768" timestamp="1603365397230" />
+    <state x="221" y="63" key="SettingsEditor" timestamp="1603262619654">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="486" y="337" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1584194287259" />
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1584198616561">
+    <state x="221" y="63" key="SettingsEditor/-291.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1603262619654" />
+    <state x="221" y="89" key="SettingsEditor/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603262470166" />
+    <state x="88" y="113" key="new project wizard" timestamp="1603259879708">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584198616561" />
-    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1584198616559">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584198616559" />
-    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1584198616559">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584198616559" />
-    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1584198616560">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584198616560" />
-    <state width="1398" height="226" key="GridCell.Tab.1.bottom" timestamp="1584198616563">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584198616563" />
-    <state width="1398" height="226" key="GridCell.Tab.1.center" timestamp="1584198616562">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="226" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584198616562" />
-    <state width="1398" height="226" key="GridCell.Tab.1.left" timestamp="1584198616561">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="226" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584198616561" />
-    <state width="1398" height="226" key="GridCell.Tab.1.right" timestamp="1584198616562">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="226" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584198616562" />
-    <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1584197821253">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1584197821253" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1584198389187">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1584198389187" />
-    <state x="141" y="290" key="new project wizard" timestamp="1584194334950">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="141" y="290" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1584194334950" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1584169620254">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584169620254" />
+    <state x="88" y="113" key="new project wizard/-291.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1603259879708" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,7 +359,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/designparrern/src/main/java/com/lyflying/designpattern/factory/di/XmlBeanConfigParser.java</url>
-          <line>32</line>
+          <line>33</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -374,5 +379,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javapractice$AccountDemo1.ic" NAME="AccountDemo1 Coverage Results" MODIFIED="1603266847640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lyflying.thread.transfer.*</FILTER>
+    </SUITE>
   </component>
 </project>

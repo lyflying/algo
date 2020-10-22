@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/algo/algo.iml" filepath="$PROJECT_DIR$/algo/algo.iml" />
       <module fileurl="file://$PROJECT_DIR$/designparrern/designparrern.iml" filepath="$PROJECT_DIR$/designparrern/designparrern.iml" />
       <module fileurl="file://$PROJECT_DIR$/javapractice.iml" filepath="$PROJECT_DIR$/javapractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
     </modules>
   </component>
 </project>

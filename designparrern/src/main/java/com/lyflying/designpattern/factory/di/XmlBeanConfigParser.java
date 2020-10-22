@@ -10,6 +10,7 @@ import java.io.InputStream;
 import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class XmlBeanConfigParser implements BeanconfigParser {
@@ -35,7 +36,13 @@ public class XmlBeanConfigParser implements BeanconfigParser {
         BeanDefinition.ConstructorArg arg2= new BeanDefinition.ConstructorArg(false, int.class, 23);
         BeanDefinition beanDefinition = new BeanDefinition("user", "com.lyflying.designpattern.factory.di.User",
                 Arrays.asList(arg1, arg2), BeanDefinition.Scope.SINGLETON, true);
+
+        BeanDefinition.ConstructorArg userArg = new BeanDefinition.ConstructorArg(true, User.class, "user");
+        BeanDefinition beanDefinitionMember = new BeanDefinition("member", "com.lyflying.designpattern.factory.di.Member",
+                Collections.singletonList(userArg), BeanDefinition.Scope.SINGLETON, false);
+
         // todo 解析xml
+        beanDefinitions.add(beanDefinitionMember);
         beanDefinitions.add(beanDefinition);
         return beanDefinitions;
     }
