@@ -4,7 +4,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @author: LY
- * @email: liuyang10@baijiahulian.com
  * @time: 2020/10/21 2:28 下午
  * @description:
  */
