@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="thread" />
         <module name="designparrern" />
         <module name="algo" />
+        <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="algo" target="8" />
-      <module name="designparrern" target="8" />
-      <module name="thread" target="8" />
+      <module name="algo" target="16" />
+      <module name="designparrern" target="1.5" />
+      <module name="thread" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
